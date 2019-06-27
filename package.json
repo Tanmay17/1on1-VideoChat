@@ -4,7 +4,7 @@
   "description": "Implementing something using WebRTC",
   "main": "main.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon server.js | npm run watch",
     "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
   },
   "author": "Tanmay Srivastava",
